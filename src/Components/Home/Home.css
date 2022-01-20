@@ -1,0 +1,15 @@
+.left-bar{
+    border-right: 2px solid black;
+    height: 100vh;
+}
+.left-div{
+    width: 100%;
+    box-shadow: inset 2px 2px 5px 5px rgba(88, 88, 88, 0.2);
+    border-radius: 20px;
+}
+.left-div button{
+    width: 95%;
+    background: none;
+    color: black;
+    border: none;
+}
