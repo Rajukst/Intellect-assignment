@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
+import MainHome from "./Components/Home/MainHome/MainHome";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Header></Header>
         <Switch>
           <Route exact path="/">
-            <Home></Home>
+            <MainHome></MainHome>
           </Route>
           <Route path="/home">
             <Home></Home>

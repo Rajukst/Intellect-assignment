@@ -8,7 +8,9 @@ const Header = () => {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Nav className="me-auto">
-            <Link to="/home">Home</Link>
+            <h4>
+              <Link to="/home">Skills</Link>
+            </h4>
           </Nav>
         </Container>
       </Navbar>
